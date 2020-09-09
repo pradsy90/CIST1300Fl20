@@ -1,0 +1,28 @@
+C:\Users\pradh>cd C:\Users\pradh\Documents\CIST1300\Sourcecode
+
+C:\Users\pradh\Documents\CIST1300\Sourcecode>git init
+[This command basically initiates the git repository process against this directory].
+Initialized empty Git repository in C:/Users/pradh/Documents/CIST1300/Sourcecode/.git/
+
+C:\Users\pradh\Documents\CIST1300\Sourcecode>git status
+[This command basically gets the status for the git repository].
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\pradh\Documents\CIST1300\Sourcecode>git remote add origin https://github.com/pradsy90/CIST1300Fl20
+[This command basically says we have a remote location called "origin"].
+C:\Users\pradh\Documents\CIST1300\Sourcecode>git pull origin master
+[This command basically says we need to pull in files from remote location called "origin". In specific from master branch].
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 10 (delta 1), reused 9 (delta 1), pack-reused 0
+Unpacking objects: 100% (10/10), 2.25 KiB | 29.00 KiB/s, done.
+From https://github.com/pradsy90/CIST1300Fl20
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+C:\Users\pradh\Documents\CIST1300\Sourcecode> git status
